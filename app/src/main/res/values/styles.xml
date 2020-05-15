@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="CustomTextView"  parent="@android:style/Widget.TextView">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginLeft">5dp</item>
+            <item name="android:layout_marginRight">10dp</item>
+            <item name="android:layout_marginBottom">400dp</item>
+            <item name="android:paddingRight">3dp</item>
+            <item name="android:paddingLeft">8dp</item>
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="CustomTitleView"  parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">400dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>
